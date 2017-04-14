@@ -31,15 +31,15 @@ set steamcmd_path=C:\steamcmd\steamcmd.exe
 set exe_path=C:\game-servers\CSGO\srcds.exe -game csgo -console -nocrashdialog -port 27015 +clientport 27005 +map de_dust2
 
 :: This is the title of your server this will help you know what server this auto updater is running for ::
-set servername=My CSGO#1 Server
+set servername=se
 
 :: This is the app ID of the game server you are installing / running ::
-set appid=740
+set appid=298740
 
 :: This is the app ID the url will check for updates on that game ::
 :: Some games this is the same as the installation appid other games it is a different numeric value ::
 :: if your latest-version.txt file is empty you need to make this value different to the installation appid, just go to the steam store page and get the appid from the end url ::
-set update_appid=730
+set update_appid=298740
 
 :: Automatic Updating Interval (in seconds) this will set how often you check the steam servers for a new update ::
 :: I recommend 5-10 mins maximum ::
